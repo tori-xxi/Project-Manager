@@ -1,0 +1,16 @@
+/* Simple white + muted navy + soft gold theme */
+:root{
+  --muted-navy: #0b2545;
+  --soft-gold: #c9a66b;
+  --bg: #ffffff;
+  --muted-gray: #f7f7f9;
+}
+body{ background: var(--bg); color: #222; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+a { color: var(--muted-navy); }
+.navbar-brand, .nav-link{ color: var(--muted-navy) !important; }
+.btn-primary { background: var(--muted-navy); border-color: var(--muted-navy); }
+.btn-outline-secondary { color: var(--muted-navy); border-color: var(--muted-navy); }
+header.bg-light { background: linear-gradient(90deg, rgba(11,37,69,0.03), rgba(201,166,107,0.02)); }
+.card img { height: 260px; object-fit: cover; background: linear-gradient(180deg, #f6f6f8, #e9e9eb); }
+h1,h2,h3{ color: var(--muted-navy); }
+footer{ background: var(--bg); }
